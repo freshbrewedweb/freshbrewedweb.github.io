@@ -1,6 +1,30 @@
 ---
-# You don't need to edit this file, it's empty on purpose.
-# Edit theme's home layout instead if you wanna make some changes
-# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-layout: home
+layout: page
+title: Home
+permalink: /
 ---
+
+# Modern Web Development, with a caffeinated kick.
+
+Fresh Brewed Web is a Montreal based web development shop focused on delivering high quality websites and web apps, all while contributing to a better web.
+
+### WWW-EXPERTS
+
+- Wordpress
+- Web apps
+- Web design
+
+We’re experts in what we do. Just ask us about:
+
+- A custom tuned server to your needs
+- Custom design that is fluid and adaptive to the web
+- Expert developed bespoke WordPress sites
+- What technology solution is right for your business
+- High performance
+
+### TECHNOLOGIES
+
+- WordPress
+- PHP7
+- Laravel
+- React
