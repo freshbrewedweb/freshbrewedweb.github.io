@@ -1,6 +1,10 @@
-// Define defaults for each variable.
+$brand-primary:    #CB7947 !default;
+$brand-dark:       #362A26 !default;
+$brand-light:      #E2E0D7 !default;
 
+// Define defaults for each variable
 $base-font-family: "Ubuntu", Helvetica, Arial, sans-serif !default;
+$serif-font-family: "Lora", Georgia, "Times New Roman", serif !default;
 $base-font-size:   16px !default;
 $base-font-weight: 400 !default;
 $small-font-size:  $base-font-size * 0.875 !default;
@@ -21,6 +25,8 @@ $content-width:    800px !default;
 
 $on-palm:          600px !default;
 $on-laptop:        800px !default;
+
+$sidebar-width:    268px;
 
 // Use media queries like this:
 // @include media-query($on-palm) {

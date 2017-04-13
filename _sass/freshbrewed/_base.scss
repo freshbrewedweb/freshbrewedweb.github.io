@@ -1,6 +1,16 @@
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
 body {
+    background-color: $brand-light;
+    color: $brand-dark;
     font-family: $base-font-family;
     font-size: $base-font-size;
     font-weight: $base-font-weight;
+}
 
+a {
+    text-decoration: none;
 }

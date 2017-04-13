@@ -1,0 +1,93 @@
+body {
+    padding-left: $sidebar-width;
+    font-size: 14px;
+}
+
+.site-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: $brand-dark;
+
+    height: 100%;
+    width: 80%;
+    max-width: $sidebar-width;
+
+    a {
+        color: $brand-light;
+    }
+
+    &__toggler {
+        padding: 0;
+        margin: 0;
+        line-height: 1;
+        font-size: 1.2em;
+        display: block;
+        border: none;
+        background: none;
+        position: absolute;
+        top: 1em;
+        right: 1em;
+        color: $brand-light;
+        cursor: pointer;
+        &:hover {
+            color: $brand-primary;
+        }
+    }
+}
+
+.site-title {
+    text-decoration: none;
+    margin-bottom: $spacing-unit;
+    &:hover {
+        path {
+            fill: $brand-primary;
+        }
+    }
+}
+
+.site-brand {
+    padding: $spacing-unit;
+    padding-bottom: 0;
+
+    p {
+        line-height: 1.5;
+        font-size: 0.85em;
+
+        i {
+            margin-right: 3px;
+        }
+    }
+
+    a {
+        &:hover {
+            color: $brand-primary;
+        }
+    }
+}
+
+.site-nav {
+    margin-top: $spacing-unit;
+
+    a {
+        margin: 1px;
+        background-color: rgba($brand-light, 0.1);
+        padding: $spacing-unit / 2;
+        display: block;
+
+        &:hover {
+            background-color: $brand-primary;
+        }
+    }
+
+}
+
+.site-content {
+    padding: $spacing-unit;
+
+    p {
+        font-family: $serif-font-family;
+        font-size: 1.28em;
+        line-height: 1.55;
+    }
+}
