@@ -72,7 +72,7 @@ body {
     a {
         margin: 1px;
         background-color: rgba($brand-light, 0.1);
-        padding: $spacing-unit / 2;
+        padding: $spacing-unit / 2 $spacing-unit;
         display: block;
 
         &:hover {
