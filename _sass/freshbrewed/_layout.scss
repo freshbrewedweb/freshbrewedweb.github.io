@@ -1,5 +1,5 @@
 * {
-    transition: all ease-in-out 200ms;
+    transition: background ease-in-out 200ms;
 }
 
 body {
@@ -17,6 +17,8 @@ body {
     height: 100%;
     width: 75%;
     box-shadow: 3px 0 5px rgba(0,0,0,0.5);
+    transition: left ease-in-out 200ms;
+
     @media( min-width: $on-palm ) {
         left: 0;
         width: $sidebar-width;
@@ -81,6 +83,7 @@ body {
     padding-bottom: 0;
 
     p {
+        font-family: $base-font-family;
         line-height: 1.5;
         font-size: 0.85em;
 

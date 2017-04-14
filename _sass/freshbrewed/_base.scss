@@ -15,40 +15,36 @@ a {
     text-decoration: none;
 }
 
+p {
+    font-family: $serif-font-family;
+    @include font-size(18px);
+    line-height: 1.55;
+}
 
-.site-content {
-    p {
-        font-family: $serif-font-family;
-        @include font-size(18px);
-        line-height: 1.55;
-    }
+h1, h2, h3 {
+    margin-top: 0;
+    font-family: $base-font-family;
+    font-weight: 700;
+    margin: 2em 0 1em;
+}
 
-    h1, h2, h3 {
-        margin-top: 0;
-        font-family: $base-font-family;
-        font-weight: 700;
-        margin: 2em 0 1em;
-    }
+h1 {
+    @include font-size(34px);
+    margin-top: 0;
+}
 
-    h1 {
-        @include font-size(34px);
-        margin-top: 0;
-    }
+h3 {
+    @include font-size(18px);
+    text-transform: uppercase;
+}
 
-    h3 {
-        @include font-size(18px);
-        text-transform: uppercase;
-    }
+ul {
+    @include font-size();
+    font-weight: 700;
+    padding-left: 1em;
+    margin: $spacing-unit 0;
+}
 
-    ul {
-        @include font-size();
-        font-weight: 700;
-        padding-left: 1em;
-        margin: $spacing-unit 0;
-    }
-
-    li {
-        margin: $spacing-unit/2 0;
-    }
-
+li {
+    margin: $spacing-unit/2 0;
 }

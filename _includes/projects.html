@@ -1,0 +1,15 @@
+<div class="list-projects">
+    {% for item in include.projects %}
+    <a class="project" href="{{ item.url }}">
+        <div class="project__content">
+            <h2 class="project__title" >{{ item.name | escape }}</h2>
+            <p class="project__desc">{{ item.description }}</p>
+        </div>
+        <ul class="project__tags">
+            {% for tag in item.tags %}
+            <li>{{ tag }}</li>
+            {% endfor %}
+        </ul>
+    </a>
+    {% endfor %}
+</div>

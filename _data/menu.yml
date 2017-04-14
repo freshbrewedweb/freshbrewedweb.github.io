@@ -2,9 +2,7 @@
   url: /
 - text: About
   url: /about/
-- text: Showcase
-  url: /showcase/
-- text: Contributions
-  url: /contributions/
+- text: Projects
+  url: /projects/
 - text: Blog
   url: /blog/
