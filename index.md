@@ -10,9 +10,11 @@ Fresh Brewed Web is a Montreal based web development shop focused on delivering 
 
 ### WWW-EXPERTS
 
-- Wordpress
-- Web apps
-- Web design
+<ul class="list-inline">
+    <li><a href="/wordpress/" class="pill">Wordpress</a></li>
+    <li><a href="/web-apps/" class="pill">Web Apps</a></li>
+    <li><a href="/web-design/" class="pill">Web Design</a></li>
+</ul>
 
 We’re experts in what we do. Just ask us about:
 
@@ -24,7 +26,4 @@ We’re experts in what we do. Just ask us about:
 
 ### TECHNOLOGIES
 
-- WordPress
-- PHP7
-- Laravel
-- React
+![Technology Logos: Wordpress, PHP7, Laravel & React](/assets/technologies.png)

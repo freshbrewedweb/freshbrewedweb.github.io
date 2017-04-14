@@ -115,6 +115,11 @@ body {
 .site-content {
     padding: $spacing-unit * 2;
     max-width: 700px;
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
 }
 
 .navigation--is-open {

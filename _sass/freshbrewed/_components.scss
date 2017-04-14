@@ -1,0 +1,23 @@
+.pill {
+    display: inline-block;
+    padding: 0.5em 1em;
+    border-radius: 99em;
+    background-color: $brand-dark;
+    color: $brand-light;
+    text-transform: uppercase;
+
+    &:hover {
+        background-color: $brand-primary;
+    }
+}
+
+ul.list-inline {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    li {
+        display: inline-block;
+        margin-right: 1em;
+    }
+}
