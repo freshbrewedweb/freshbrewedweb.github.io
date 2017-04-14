@@ -1,0 +1,10 @@
+- text: Home
+  url: /
+- text: About
+  url: /about/
+- text: Showcase
+  url: /showcase/
+- text: Contributions
+  url: /contributions/
+- text: Blog
+  url: /blog/
