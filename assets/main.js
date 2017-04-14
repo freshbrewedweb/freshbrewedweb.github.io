@@ -1,3 +1,5 @@
 $(document).ready(function() {
-    console.log( "ready!" );
+    $("#menuToggle").on('click', function(){
+        $("body").toggleClass("navigation--is-open");
+    });
 });
