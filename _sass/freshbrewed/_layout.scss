@@ -73,6 +73,19 @@ body {
         overflow: hidden;
         position: relative;
         flex: 1;
+        p {
+            width: 100%;
+            box-sizing: border-box;
+            margin: 0;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            z-index: 2;
+            color: $brand-light;
+            text-align: center;
+            padding: $spacing-unit/2;
+            @include font-size(12px);
+        }
         video {
             mix-blend-mode: overlay;
             /* Make video to at least 100% wide and tall */
