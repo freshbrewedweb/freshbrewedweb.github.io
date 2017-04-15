@@ -6,7 +6,7 @@ permalink: /about/
 
 ## History
 
-**Fresh Brewed Web** was officially founded in 2015 and has been the culmination of over 10 years of web development by its founder, Greg Hunt.
+**Fresh Brewed Web** was officially founded in 2015 and is the culmination of over 10 years of web development by its founder, Greg Hunt.
 
 ## Artisanal Code
 
