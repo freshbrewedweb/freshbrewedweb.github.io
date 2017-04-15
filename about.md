@@ -2,6 +2,7 @@
 layout: page
 title: About
 permalink: /about/
+description: Fresh Brewed Web was officially founded in 2015 and is the culmination of over 10 years of web development by its founder, Greg Hunt.
 ---
 
 ## History

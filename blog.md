@@ -2,7 +2,7 @@
 layout: page
 title: Blog
 permalink: /blog/
-order: 5
+description: Read our fresh updates on the web.
 ---
 
 {% include social.html %}
