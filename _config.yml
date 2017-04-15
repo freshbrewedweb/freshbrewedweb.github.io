@@ -23,6 +23,7 @@ twitter_username: freshbreweddev
 github_username: greghunt
 calendly: https://calendly.com/freshbrewedweb
 google_analytics: UA-71779695-1
+future: false
 
 # Build settings
 markdown: kramdown

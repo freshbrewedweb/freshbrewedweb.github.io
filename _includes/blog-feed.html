@@ -1,4 +1,7 @@
-{% if site.posts > 0 %}
+{% if site.posts == empty %}
+<p>We're new at this, give us a break. We'll post something soon.</p>
+{% endif %}
+
 <div class="list-posts">
     {% for post in site.posts %}
     <a href="{{ post.url | relative_url }}" class="list-post">
@@ -15,6 +18,3 @@
     </a>
     {% endfor %}
 </div>
-{% else %}
-<p>We're new at this, give us a break. We'll post something soon.</p>
-{% endif %}

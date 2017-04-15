@@ -151,12 +151,40 @@ body {
 .site-content {
     padding: $spacing-unit * 2;
     max-width: 700px;
+    position: relative;
 
     img {
         max-width: 100%;
         height: auto;
     }
 
+}
+
+.post-meta {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+
+    li {
+        margin: 0 -2px 0 0;
+        display: inline-block;
+        background-color: $brand-dark;
+        color: $brand-light;
+        padding: 4px 8px;
+        font-weight: 300;
+        @include font-size(12px);
+
+        &:first-child {
+            border-bottom-left-radius: 4px;
+        }
+
+        &:last-child {
+            border-bottom-right-radius: 4px;
+        }
+
+    }
 }
 
 .navigation--is-open {
