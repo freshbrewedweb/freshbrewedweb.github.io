@@ -96,6 +96,11 @@ body {
 .site-title {
     text-decoration: none;
     margin-bottom: $spacing-unit;
+
+    svg {
+        width: 100%;
+        height: auto;
+    }
     &:hover {
         path {
             fill: $brand-primary;
@@ -132,6 +137,9 @@ body {
         background-color: rgba($brand-light, 0.1);
         padding: $spacing-unit / 2 $spacing-unit;
         display: block;
+        text-transform: uppercase;
+        font-weight: 700;
+        @include font-size(11px);
 
         &:hover {
             background-color: $brand-primary;
