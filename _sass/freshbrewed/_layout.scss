@@ -74,7 +74,7 @@ body {
         position: relative;
         flex: 1;
         video {
-            mix-blend-mode: multiply;
+            mix-blend-mode: overlay;
             /* Make video to at least 100% wide and tall */
             min-width: 100%;
             min-height: 100%;
