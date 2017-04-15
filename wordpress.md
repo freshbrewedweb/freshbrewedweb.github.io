@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Wordpress
+title: WordPress
 permalink: /wordpress/
 description: We make bespoke WordPress sites, themes and plugins.
 ---
