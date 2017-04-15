@@ -1,0 +1,15 @@
+- name: Greg
+  title: Owner / Lead Developer
+  avatar: assets/team/greg.jpg
+- name: Marty
+  title: Project Manager
+  avatar: assets/team/marty.jpg
+- name: Chris
+  title: Backend Developer
+  avatar: assets/team/chris.jpg
+- name: Julian
+  title: Frontend Developer
+  avatar: assets/team/julian.jpg
+- name: Henrikh
+  title: Backend Developer
+  avatar: assets/team/henrikh.jpg

@@ -1,0 +1,11 @@
+<ul class="team">
+    {% for item in include.team %}
+    <li class="team-member">
+        <img src="{{ item.avatar | relative_url }}" alt="{{ item.name }}">
+        <div class="team-member__info">
+            <p class="team-member__title">{{ item.title }}</p>
+            <h3 class="team-member__name">{{ item.name }}</h3>
+        </div>
+    </li>
+    {% endfor %}
+</ul>
