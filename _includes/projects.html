@@ -1,11 +1,11 @@
-<div class="list-projects">
+<div class="list-posts">
     {% for item in include.projects %}
-    <a class="project" href="{{ item.url }}">
-        <div class="project__content">
-            <h2 class="project__title" >{{ item.name | escape }}</h2>
-            <p class="project__desc">{{ item.description }}</p>
+    <a class="list-post" href="{{ item.url }}">
+        <div class="list-post__content">
+            <h2 class="list-post__title" >{{ item.name | escape }}</h2>
+            <p class="list-post__desc">{{ item.description }}</p>
         </div>
-        <ul class="project__tags">
+        <ul class="list-post__tags">
             {% for tag in item.tags %}
             <li>{{ tag }}</li>
             {% endfor %}

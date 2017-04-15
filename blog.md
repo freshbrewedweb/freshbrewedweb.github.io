@@ -5,6 +5,6 @@ permalink: /blog/
 order: 5
 ---
 
-# Blog
+{% include social.html %}
 
 {% include blog-feed.html %}

@@ -26,13 +26,13 @@ ul.list-inline {
     }
 }
 
-ul.list-projects {
+ul.list-posts {
     list-style: none;
     margin: 0;
     padding: 0;
 }
 
-.project {
+.list-post {
     margin: 0;
     position: relative;
     color: $brand-dark;
@@ -53,11 +53,13 @@ ul.list-projects {
 
     border-bottom-width: 0;
     &:first-child {
-        border-radius: 1em 1em 0 0;
+        border-top-left-radius: 1em;
+        border-top-right-radius: 1em;
     }
 
     &:last-child {
-        border-radius: 0 0 1em 1em;
+        border-bottom-left-radius: 1em;
+        border-bottom-right-radius: 1em;
         border-bottom-width: 2px;
     }
 
@@ -65,6 +67,7 @@ ul.list-projects {
         @include font-size(16px);
         text-transform: uppercase;
         padding: $spacing-unit/2;
+        font-weight: 700;
         padding-bottom: 0;
         margin: 0;
     }
@@ -156,5 +159,27 @@ ul.list-projects {
         margin: 0;
         font-size: 0.75em;
         font-weight: 400;
+    }
+}
+
+.button {
+    display: inline-block;
+    margin: 0 4px 4px 0;
+    border: 2px solid $brand-primary;
+    border-radius: 4px;
+    font-family: $base-font-family;
+    padding: 0.4em 0.8em;
+    text-transform: uppercase;
+    font-weight: 700;
+    white-space: nowrap;
+    @include font-size(11px);
+
+    i {
+        font-size: 1.25em;
+        vertical-align: middle;
+    }
+
+    &:hover {
+        background-color: rgba($brand-primary, 0.2);
     }
 }
