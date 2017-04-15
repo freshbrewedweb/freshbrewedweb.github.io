@@ -58,3 +58,17 @@ strong {
     font-family: $base-font-family;
     font-weight: 700;
 }
+
+blockquote {
+    margin: $spacing-unit 0;
+    padding: $spacing-unit/2 $spacing-unit*2;
+    border: 2px solid $brand-primary;
+    background-color: rgba($brand-primary, 0.2);
+    border-radius: 6px;
+    box-shadow: 0 1.75em 2em -1.5em rgba(0,0,0,0.4);
+
+    p {
+        font-family: $base-font-family;
+        font-weight: 300;
+    }
+}

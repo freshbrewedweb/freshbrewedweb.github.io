@@ -10,9 +10,13 @@ permalink: /about/
 
 ## Artisanal Code
 
-Our roots were in design and marketing but we quickly became a dev shop specializing in front end integration.
+Our roots were in design and marketing but we quickly became a dev shop specializing in front-end integration.
 
-Nowadays, we offer a full stack of services to bring life to quality web applications - while at the same time, not spreading ourselves thin by offering marketing and other extraneous services. We can offer consultation in marketing, and you better believe our websites are search engine friendly, but our focus remains on providing a craftmanship-like quality to the code that runs the web.
+Nowadays, we offer a full stack of services to bring life to quality web applications. At the same time, we make a point not to spread ourselves thin by offering marketing and other extraneous services. We can offer consultation for marketing, and our websites are certainly search engine friendly...
+
+> ...but our focus remains on providing craftsmanship to the code that runs your web.
+>
+> Code that's brewed with an artisan's touch.
 
 ## Team
 
