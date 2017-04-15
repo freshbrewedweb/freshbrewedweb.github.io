@@ -10,7 +10,7 @@
             <p class="list-post__desc">{{ post.excerpt | remove: '<p>' | remove: '</p>' }}</p>
         </div>
         <ul class="list-post__tags">
-            <li class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</li>
+            <li>{{ post.date | date: "%b %-d, %Y" }}</li>
             {% for tag in post.categories %}
             <li>{{ tag }}</li>
             {% endfor %}
