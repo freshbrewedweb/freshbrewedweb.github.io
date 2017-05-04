@@ -217,3 +217,15 @@ body {
         }
     }
 }
+
+.post-content {
+    border-bottom: 3px solid rgba(0,0,0,0.1);
+    margin-bottom: $spacing-unit;
+}
+
+.post-nav {
+    overflow: hidden;
+    &__prev {
+        float: right;
+    }
+}
