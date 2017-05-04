@@ -24,6 +24,7 @@ github_username: greghunt
 calendly: https://calendly.com/freshbrewedweb
 google_analytics: UA-71779695-1
 future: false
+permalink: :year/:month/:day/:title.html
 
 # Build settings
 markdown: kramdown
