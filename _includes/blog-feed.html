@@ -7,7 +7,7 @@
     <a href="{{ post.url | relative_url }}" class="list-post">
         <div class="list-post__content">
             <h2 class="list-post__title" >{{ post.title | escape }}</h2>
-            <p class="list-post__desc">{{ post.excerpt | remove: '<p>' | remove: '</p>' }}</p>
+            <p class="list-post__desc">{{ post.description }}</p>
         </div>
         <ul class="list-post__tags">
             <li>{{ post.date | date: "%b %-d, %Y" }}</li>
