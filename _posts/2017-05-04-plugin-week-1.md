@@ -4,6 +4,7 @@ title:  "Plugin of the Week"
 description: "This week's WordPress plugin of the week is: Notification Centre."
 date:   2017-05-05 2:56:00 -0500
 categories: wordpress plugins
+image: /assets/blog/too-many-notifications.jpg
 ---
 
 ## [Notification Centre](https://wordpress.org/plugins/wp-notification-center/)
