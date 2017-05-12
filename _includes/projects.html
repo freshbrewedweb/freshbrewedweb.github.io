@@ -1,4 +1,4 @@
-{% assign collection_tags =  site.projects | map: 'tags' | join: ','  | split: ',' | uniq | sort %}
+{% assign collection_tags =  site.projects | map: 'tags' | join: ',' | split: ',' | uniq | sort %}
 <div class="button-group filter-button-group">
     <a class="button active" data-filter="*">All</a>
 	{% for tag in collection_tags %}
