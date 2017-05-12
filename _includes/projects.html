@@ -1,8 +1,8 @@
 <div class="list-posts">
-    {% for item in include.projects %}
-    <a class="list-post" href="{{ item.url }}">
+    {% for item in site.projects %}
+    <a class="list-post" href="{% if item.external %}{{ item.external }}{% else %}{{ item.url }}{% endif %}">
         <div class="list-post__content">
-            <h2 class="list-post__title" >{{ item.name | escape }}</h2>
+            <h2 class="list-post__title" >{{ item.title }}</h2>
             <p class="list-post__desc">{{ item.description }}</p>
         </div>
         <ul class="list-post__tags">
