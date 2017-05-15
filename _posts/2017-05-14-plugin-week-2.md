@@ -12,16 +12,16 @@ image: /assets/blog/no-format-shortcode.png
 [Download](https://wordpress.org/plugins/no-format-shortcode/){: .button}
 
 
-**We made this plugin from necessity.** Oftentimes when were formatting a particularly intricate page in WordPress's editor, its automatic formatting, specifically the `wpautop` filter, would get in the way with our markup. The usual workaround for this is to simply disable `wpautop`:
+**We made this plugin from necessity.** Oftentimes when we're formatting a particularly intricate page in WordPress's editor, its automatic formatting, specifically the `wpautop` filter, would get in the way with our own HTML. The usual workaround for this is to simply disable `wpautop`:
 
 ```
 remove_filter( 'the_content', 'wpautop' );
 remove_filter( 'the_excerpt', 'wpautop' );
 ```
 
-However, it's often the case that most pages are authored by the client and we do in fact want to keep it enabled for them to make things more convenient.
+However, this is a global change. It's often the case that most pages are authored by the client and we do in fact want to keep it enabled for them to make things more convenient.
 
-This is where the need to selectively disable `wpautop` can in. A great simple solution here was to just wrap your content in a shortcode. Like this:
+This is where the need to selectively disable `wpautop` came in. A nice simple solution here is to just wrap your content in a shortcode. Like this:
 
 ```
 [noformat]
@@ -34,6 +34,6 @@ You'll notice no automatic <p>'s or <br/>'s are added within this shortcode.
 [/noformat]
 ```
 
-For awhile this was actually our own snippet we would drop into a theme or mu-plugins for the client. Then we realized after a quick search on the WP plugins repo that there wasn't much in the way for a solution like this and it could be really valuable for other WordPress developers in need of finer control over formatting. So in the spirit of WordPress and open-source, we published it this week for all to use.
+For awhile this was actually our own snippet we would drop into a theme or mu-plugins for a client. Then we realized after a quick search on the WP plugins repo that there wasn't much in the way for a solution like this. It could be really valuable for other WordPress developers in need of finer control over formatting. So in the spirit of WordPress and open-source, we published it this week for all to use.
 
 Enjoy!
