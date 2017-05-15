@@ -34,6 +34,6 @@ You'll notice no automatic <p>'s or <br/>'s are added within this shortcode.
 [/noformat]
 ```
 
-For awhile this was actually our own snippet we would drop into a theme or mu-plugins for a client. Then we realized after a quick search on the WP plugins repo that there wasn't much in the way for a solution like this. It could be really valuable for other WordPress developers in need of finer control over formatting. So in the spirit of WordPress and open-source, we published it this week for all to use.
+For awhile this was actually our own snippet we would drop into a theme or mu-plugins for a client. Then we realized after a quick search on the WP plugins repo that there wasn't much in the way of a solution like this. It could be really valuable for other WordPress developers in need of finer control over formatting. So in the spirit of WordPress and open-source, we published it this week for all to use.
 
 Enjoy!
