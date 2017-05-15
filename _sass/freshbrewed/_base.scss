@@ -73,3 +73,10 @@ blockquote {
         font-weight: 300;
     }
 }
+
+pre {
+    background: rgba(#1a1604, 0.9);
+    color: #c7c2af;
+    padding: $spacing-unit;
+    box-shadow: 0 0 4px black inset;
+}

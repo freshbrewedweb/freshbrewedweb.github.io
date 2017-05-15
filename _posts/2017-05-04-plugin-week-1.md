@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Plugin of the Week"
+title:  "Plugin of the Week: WP Notification Center"
 description: "Our WordPress plugin of the week is: WP Notification Center. We're sick of the messy notifications WordPress has yet to get a handle on."
 date:   2017-05-05 2:56:00 -0500
 categories: wordpress plugins
