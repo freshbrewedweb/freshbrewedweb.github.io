@@ -53,6 +53,10 @@ ul {
 
 li {
     margin: $spacing-unit/2 0;
+
+    small {
+        font-weight: 400;
+    }
 }
 
 strong {
