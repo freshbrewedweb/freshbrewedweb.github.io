@@ -11,7 +11,7 @@ We pride ourselves on not being general graphic designers. We specifically do we
 - Want some fylers made? <small>We'll refer you to someone else.</small>
 - Want to transform your brand into a stunning user interface for your company? <small>That's more like it. Read on...</small>
 
-Our strength is in design easy to use, pleasing user interfaces. This isn't limited to a complicated interface of a web app either. We take the same approach to website design. 
+Our strength is in designing easy to use, pleasing user interfaces. This isn't limited to a complicated interface of a web app either. We take the same approach to website design. 
 
 Our approach puts usability and user experience at the forefront of our design. Aesthetics come second, but in no diminished role. Even the aesthetic design must have some sort of user value as well. If an extra-roomy simple design buts the user at ease and helps them focus on the important parts of your value proposition, that will be the deciding factor - not simply "does look nice?"
 
