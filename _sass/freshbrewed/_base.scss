@@ -44,7 +44,7 @@ h3 {
     text-transform: uppercase;
 }
 
-ul {
+ul, ol {
     @include font-size();
     font-weight: 700;
     padding-left: 1em;
