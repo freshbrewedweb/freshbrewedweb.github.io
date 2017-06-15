@@ -1,4 +1,5 @@
 ---
+layout: project
 title: WordPress Classroom
 description: A simple but flexible plugin for giving educational and monetizable functionality to your WordPress installation.
 external: https://github.com/freshbrewedweb/wp-classroom
@@ -6,9 +7,10 @@ thumbnail: classroom.thumb.png
 tags:
     - WordPress
     - Plugin
+buttons:
+    - text: Download from WordPress
+      url:  https://wordpress.org/plugins/classroom/
 ---
-
-[Download from WordPress](https://wordpress.org/plugins/classroom/){: .button}
 
 Create a digital video based classroom in WordPress. This plugin gives you the ability to publish classes. It's flexible enough to combine with other well known WordPress plugins to enhance the functionality.
 
