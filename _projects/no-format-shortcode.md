@@ -1,6 +1,8 @@
 ---
 title: No Format Shortcode
 description: This plugin provides a shortcode to selectively disable WordPress' automatic formatting. Very useful for anyone looking to write some custom HTML, but doesn't want to completely diasble wpautop.
+thumbnail: no-format.thumb.png
+external: https://wordpress.org/plugins/no-format-shortcode/
 tags:
   - WordPress
   - Plugin

@@ -18,6 +18,11 @@
             <li>{{ tag }}</li>
             {% endfor %}
         </ul>
+        {% if item.thumbnail %}
+        <figure class="list-post__thumb" style="background-image:url(/assets/projects/{{ item.thumbnail }})">
+            {{ item.title }}
+        </figure>
+        {% endif %}
     </a>
     {% endfor %}
 </div>
