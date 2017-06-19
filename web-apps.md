@@ -31,4 +31,4 @@ Most of Apps are built with the following tools, frameworks & languages:
 
 **[Oakparks](https://oakparks.org/)** is our biggest maintained web app. It's the web's largest database and runs off of its own [RESTful JSON API](http://docs.oakparks.apiary.io/#). It was built with Laravel (PHP, SQL, nginx) and includes several adaptable web crawlers, data normalization classes, and performance optimization techniques to work with a database of several million entries.
 
-**[Online Hearing Test](audicus.com/online-hearing-test)** is a ReactJS app to thoroughly and accurately test user's hearing. Its frontend is entirely built in React, uses the redux approach to global state, connects to other web services such as Amazon SES for email notifications, and connects directly to Salesforce to save its data.
+**[Online Hearing Test](https://www.audicus.com/online-hearing-test)** is a ReactJS app to thoroughly and accurately test user's hearing. Its frontend is entirely built in React, uses the redux approach to global state, connects to other web services such as Amazon SES for email notifications, and connects directly to Salesforce to save its data.
