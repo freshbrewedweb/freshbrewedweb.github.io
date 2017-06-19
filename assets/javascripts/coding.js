@@ -5,7 +5,11 @@ document.addEventListener("turbolinks:load", function() {
         "cd kickass-app",
         "php artisan serve",
         "atom routes/web.php",
-        "Route::get('/', 'PageController@index');"
+        "Route::get('/', 'PageController@index');",
+        "php artisan make:controller PageController",
+        "atom app/Http/Controllers/PageController.php",
+        "public function index()\n{\n\treturn view('home');\n}",
+        "touch resources/views/home.blade.php"
     ],
     stringsElement: null,
 	// typing speed
@@ -33,7 +37,7 @@ document.addEventListener("turbolinks:load", function() {
 	// attribute to type (null == text)
 	attr: null,
 	// either html or text
-	contentType: 'html',
+	contentType: 'text',
 	// call when done callback function
 	callback: function() {},
 	// starting callback function before each string

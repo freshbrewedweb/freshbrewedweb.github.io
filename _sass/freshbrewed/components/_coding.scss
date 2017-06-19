@@ -1,5 +1,27 @@
 .coding {
+    font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+    letter-spacing: 0.05em;
+    white-space: pre;
+    background: rgba(#1a1604, 0.9);
+    color: #c7c2af;
+    padding: 0 $spacing-unit*2;
+    box-shadow: 0 0 4px black inset;
+    width: 100%;
+    box-sizing: border-box;
     margin: 0;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+    &__inner {
+        text-align: left;
+    }
+
+    &--terminal {
+        color: #91b045;
+    }
 }
 
 .typed-cursor{
