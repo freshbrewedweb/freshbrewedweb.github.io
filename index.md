@@ -12,7 +12,7 @@ Fresh Brewed Web is a Montreal based web development shop focused on delivering 
 
 <ul class="list-inline">
     <li><a href="/wordpress/" class="pill">Wordpress</a></li>
-    <li><a href="/web-apps/" class="pill">Web Apps</a></li>
+    <li><a href="/web-apps/" class="pill" data-turbolinks="false">Web Apps</a></li>
     <li><a href="/web-design/" class="pill">Web Design</a></li>
 </ul>
 

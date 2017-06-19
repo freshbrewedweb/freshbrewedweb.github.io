@@ -8,6 +8,11 @@ body {
     }
 }
 
+.turbolinks-progress-bar {
+  height: 5px;
+  background-color: $brand-primary;
+}
+
 .site-header {
     display: flex;
     flex-direction: column;

@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', function(){
+document.addEventListener("turbolinks:load", function() {
   Typed.new('#coding', {
     strings: [
         "composer create-project --prefer-dist laravel/laravel kickass-app",
