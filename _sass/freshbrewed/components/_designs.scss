@@ -20,7 +20,7 @@
 
         &:hover,
         &.design--active {
-            background: darken($brand-light, 30%);
+            background: $brand-primary;
 
             img {
                 mix-blend-mode: normal;
