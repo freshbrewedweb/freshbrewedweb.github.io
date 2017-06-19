@@ -1,0 +1,65 @@
+.designs {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    overflow-x: scroll;
+    position: relative;
+
+    li {
+        margin: 0;
+    }
+
+    a {
+        display: block;
+        background: darken($brand-light, 10%);
+        border: none;
+        padding-bottom: 3px;
+
+        &:hover,
+        &.design--active {
+            background: darken($brand-light, 30%);
+
+            img {
+                mix-blend-mode: normal;
+            }
+        }
+    }
+
+    img {
+        display: block;
+        width: auto;
+        height: 195px;
+        mix-blend-mode: overlay;
+    }
+}
+
+.design-explanation {
+    background: $brand-dark;
+    color: $brand-light;
+    padding: $spacing-unit ( $spacing-unit * 2 );
+
+    &__title {
+        margin-top: 0;
+        @include h3();
+    }
+}
+
+.design--active {
+    position: relative;
+
+    &:after {
+        content: "\f2d3";
+        @include fontAwesomeIcon();
+        position: absolute;
+        display: block;
+        top: 0;
+        right: 0;
+        z-index: 2;
+        background: $brand-dark;
+        padding: 0.75em;
+        box-shadow: 3px 2px 5px rgba(0, 0, 0, 0.5);
+    }
+}

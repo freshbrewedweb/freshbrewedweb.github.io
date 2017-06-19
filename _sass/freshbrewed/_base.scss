@@ -22,26 +22,32 @@ p {
     line-height: 1.55;
 }
 
-h1, h2, h3 {
+@mixin h3() {
+    @include font-size(18px);
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+h1, h2, h3,
+.h1, .h2, .h3 {
     margin-top: 0;
     font-family: $base-font-family;
     font-weight: 700;
     margin: 2em 0 1em;
 }
 
-h1 {
+h1, .h1 {
     @include font-size(34px);
     margin-top: 0;
 }
 
-h2 {
+h2, .h2 {
     @include font-size(24px);
     font-weight: 300;
 }
 
-h3 {
-    @include font-size(18px);
-    text-transform: uppercase;
+h3, .h3 {
+    @include h3();
 }
 
 ul, ol {
