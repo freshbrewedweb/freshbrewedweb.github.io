@@ -1,6 +1,5 @@
 ---
 layout: page
-title: Home
 heading: Modern Web Development, with a caffeinated kick.
 permalink: /
 description: Fresh Brewed Web is a Montreal based web development shop focused on delivering high quality websites and web apps, all while contributing to a better web.
