@@ -18,11 +18,11 @@ Fresh Brewed Web is a Montreal based web development shop focused on delivering 
 
 We’re experts in what we do. Just ask us about:
 
-- A custom tuned server to your needs
 - Custom design that is fluid and adaptive to the web
-- Expert developed bespoke WordPress sites
 - What technology solution is right for your business
-- High performance
+- A custom tuned server to your needs
+- Expert developed bespoke WordPress sites
+- High performant sites
 
 ### TECHNOLOGIES
 
