@@ -8,14 +8,14 @@ custom_js:
     - coding
 ---
 
-Several years ago, I considered whether I should make the jump from producing web to iphone or android apps. I decided to stick with web apps for a few reasons, and I'm glad I did.
+Several years ago, I considered whether I should make the jump from producing apps for the web to iphone or android. I decided to stick with web apps for a few reasons, and I'm glad I did.
 
-1. Web apps are ubiquitous. <small>A browser can run on virtually any platform, so an app made for a browser (web app), will have greater reach. </small>
+1. Web apps are ubiquitous. <small>A browser can run on virtually any platform, so an app made for a browser (web app), will have greater reach.</small>
 2. I'm betting on the internet. <small>As popular as phone or desktop OS's are, I'm willing to bet that the internet will be more popular and especially more universal now and into the futur.</small>
-3. We can wrap a web app natively anyway. <small>The power of a browser and therefore web apps has gotten to the point that they can be easily wrapped and ported to a native system like on macOS or Windows. Why write the code 3 separate times when you can write it once and have it shipped natively and on the web with the same code?</small>
+3. We can wrap a web app natively anyway. <small>The power of a browser, and therefore web apps, has gotten to the point that they can be easily wrapped and ported to a native system like macOS or Windows. Why write the code 3 separate times when you can write it once and have it shipped natively and on the web with the same code? This saves you time and money.</small>
 
 ## Preferred weapons of choice
-Most of Apps are built with the following tools, frameworks & languages:
+Most of our apps are built with the following tools, frameworks & languages:
 
 - [MariaDB](https://mariadb.org/)
 - [PHP 7](http://php.net/)
