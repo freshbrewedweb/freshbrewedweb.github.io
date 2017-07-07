@@ -5,7 +5,7 @@ permalink: /wordpress/
 description: We make bespoke WordPress sites, themes and plugins.
 ---
 
-[View our WordPress Plugins and Themes](/projects/#filter=.WordPress){: .button}
+[View our Plugins & Themes](/projects/#filter=.WordPress){: .button}
 
 We've been developing with WordPress since our inception. It's in our roots, it's part of our foundation. And like most long term relationships, it has inevitably turned into one of love/hate. WordPress is a great solution for many, but not all, and so we do our best to educate our clients on where WordPress shines, and when it should take a back seat.
 

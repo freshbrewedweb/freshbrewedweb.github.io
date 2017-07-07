@@ -26,6 +26,8 @@ google_analytics: UA-71779695-1
 future: false
 permalink: :year/:month/:day/:title.html
 
+paginate: 10
+
 # Build settings
 markdown: kramdown
 # theme: minima

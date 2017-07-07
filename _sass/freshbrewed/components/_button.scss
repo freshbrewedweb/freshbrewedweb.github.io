@@ -1,0 +1,40 @@
+.button {
+    cursor: pointer;
+    display: inline-block;
+    margin: 0 4px 4px 0;
+    border: 2px solid $brand-primary;
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-family: $base-font-family;
+    padding: 0.4em 0.8em;
+    text-transform: uppercase;
+    font-weight: 700;
+    @include font-size(11px);
+
+    i {
+        font-size: 1.25em;
+        vertical-align: middle;
+    }
+
+    &:hover,
+    &.active {
+        background-color: rgba($brand-primary, 0.2);
+    }
+}
+
+.pill {
+    display: inline-block;
+    padding: 0.5em 1em;
+    border-radius: 99em;
+    background-color: $brand-dark;
+    color: $brand-light;
+    text-transform: uppercase;
+
+    &--sm {
+        font-size: 0.75em;
+    }
+
+    &:hover {
+        background-color: $brand-primary;
+    }
+}
