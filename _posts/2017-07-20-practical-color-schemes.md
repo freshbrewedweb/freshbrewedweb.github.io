@@ -59,7 +59,7 @@ A good functional color palette needs good contrast. The web is also inherently 
 	color: #21c0a8;
 ">Dark</div>
 
-Notice how we only have two colors so far but they both work exceedingly well in terms of text and background contrast. But two very saturated colors can be overwhelming and restricts are possibilities a bit. We need step 3.
+Notice how we only have two colors so far but they both work exceedingly well in terms of text and background contrast. But two very saturated colors can be overwhelming and restricts our possibilities a bit. We need step 3.
 
 ### Step 3: Choose a Light Color
 
@@ -97,9 +97,9 @@ Surprise, surprise, you guessed right. The same thing applies here in reverse. N
 
 ### Step 4: Make your utility belt.
 
-At this point you pretty much have your finished color scheme. Yes it was that easy, and we only have 3 colors in total. However, if you're building anything more than a few static pages, you'll need some variance with to communicate information in different states. Or perhaps even to just break up the monotony of 3 repetitive colors. Yes, the repetition is good, but when it's all you have to use, it can become a bit much.
+At this point you pretty much have your finished color scheme. Yes it was that easy, and we only have 3 colors in total. However, if you're building anything more than a few static pages, you'll need some variance to communicate information in different states. Or maybe even to just break up the monotony of 3 repetitive colors. Yes, the repetition is good, but when it's all you have to use, it can become a bit much.
 
-The trick here is to not design around your utility belt. Your color scheme is pretty strict, but your utility belt can be pretty loose to simply meet your demands as you build something more complex. Need a message alert color? Take your primary color and change the hue towards red but stay in the same tone. Need some muted text to downplay its importance? Drop the opacity on your dark color.
+The trick here is to not design around your utility belt. Your main color scheme is pretty strict, but your utility belt can be pretty loose in order to simply meet your demands as you build something more complex. Need a message alert color? Take your primary color and change the hue towards red but stay in the same tone. Need some muted text to downplay its importance? Drop the opacity on your dark color.
 
 A good guide here is to build your belt as you go and record it so you can stay consistent, but you won't need it from the start. Here's what a good belt might look like along side our main scheme:
 
@@ -173,5 +173,11 @@ A good guide here is to build your belt as you go and record it so you can stay 
 		color: #7d798c;
 	">Dark Highlight</div>
 </div>
+
+If you're curious, here's the color scheme in practice on a new open-source WordPress theme we'll be releasing shortly:
+
+[![Open Source WordPress Theme](/assets/blog/open-source-wp-theme.jpg)](/assets/blog/open-source-wp-theme.jpg)
+
+Notice how the primary color may not be the most used, but it's heavily used as the _accent_ color, the color which is used to draw your attention especially for actionable items. It's not used the most in terms of quantity, but it's the most important color on the page. I often use this strategy where the light/dark colors form the base and the primary color is used as the accent and highlighter.
 
 It's simple, it's flexible, it works. Give it a try!
