@@ -16,11 +16,11 @@ In most big branding guides, you'll get a handful of colors that create your bra
 
 Luckily, websites are actually a pretty consistent medium and how you use those colors can be broken down to a very straight forward process.
 
-## Tradition Color Schemes and Tools
+## Traditional Color Schemes and Tools
 
 You might've started by Googling color scheme tools. Tools like [Adobe's Kuler](https://color.adobe.com/) or [Coolers](https://coolors.co/) can help inspire and provide you with ready made color palettes for your website. But that's the easiest part. What do you do from there? And how do you apply it to a website?
 
-## The difference with Web
+## The difference with web
 
 I've tried those tools myself, and they've been great for inspiration, but in practice they've never fully served well. That's because most websites will not comply to an almost random mix of 5 colors, even though they look awesome. It's simply not a functional application of a color palette.
 
