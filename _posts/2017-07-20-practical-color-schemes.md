@@ -18,13 +18,13 @@ Luckily, websites are actually a pretty consistent medium and how you use those 
 
 ## Traditional Color Schemes and Tools
 
-You might've started by Googling color scheme tools. Tools like [Adobe's Kuler](https://color.adobe.com/) or [Coolers](https://coolors.co/) can help inspire and provide you with ready made color palettes for your website. But that's the easiest part. What do you do from there? And how do you apply it to a website?
+You might've started by Googling color scheme tools. Tools like [Adobe's Kuler](https://color.adobe.com/) or [Coolers](https://coolors.co/) can help inspire and provide you with ready made color palettes for your website. But that's the easy part. What do you do from there? And how do you apply it to a website?
 
 ## The difference with web
 
-I've tried those tools myself, and they've been great for inspiration, but in practice they've never fully served well. That's because most websites will not comply to an almost random mix of 5 colors, even though they look awesome. It's simply not a functional application of a color palette.
+I've tried these tools myself, and they've been great for inspiration, but in practice they've never panned out. That's because most websites will not comply to an almost random mix of 5 colors, even though they look awesome. It's just not a functional application of a color palette.
 
-Over the years, I realized I slowly ditched those tools and had broken down the process to some very simple rules that are easy to apply and consistently produce great real-world results. Here's my web method approach to colors.
+Over the years, I realized I had slowly ditched those tools and broken down the process to some very simple rules that are easy to apply and consistently produce great practical results. Here's my web method approach to colors.
 
 
 ## The Web Method
