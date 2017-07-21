@@ -12,7 +12,7 @@ image      : /assets/blog/practical-color-schemes.jpg
 Creating a color scheme for your new brand can be a daunting process if you're going the DIY route. Color theory? Color psychology? Brand recognition? There's a lot to think about for such a straight forward task. Traditionally this was left up to a branding agency that would provide you with the final color palette and some documentation on its reasoning and how you should use it. But that's expensive, and I guarantee you if you're a new business, it's not necessary and can be simplified a whole lot.
 
 ## Branding and Color Schemes
-In most big branding guides, you'll get a handful of colors that create your brand, but only if you use them consistently. If your brand consists of 3 colors, it can drastically change itself depending on how you use those colors. This is the mistake I see a lot of DIY branders making when trying to create a branded design for their website.
+In most big branding guides, you'll get a handful of colors that create your brand, but only if you use them consistently. If your brand consists of 5 distinct colors, it can drastically change itself depending on how you use those colors. Which one will get the most use? In what context to use a specific color? These are important questions to know the answers. This is the mistake I see a lot of DIY branders making when trying to create a branded design for their website. They grab a color palette and almost randomly start using the colors.
 
 Luckily, websites are actually a pretty consistent medium and how you use those colors can be broken down to a very straight forward process.
 
